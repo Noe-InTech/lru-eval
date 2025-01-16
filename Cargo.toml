@@ -1,0 +1,6 @@
+[package]
+name = "lru_eval_noe"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]

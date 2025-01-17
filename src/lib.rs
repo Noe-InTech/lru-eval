@@ -1,5 +1,5 @@
-pub mod cache; 
-use crate::cache::Cache; 
+pub mod cache;
+use crate::cache::Cache;
 
 pub struct LruCache {
     cache: Cache<char, u32>, // Cache qui utilise des caractères comme clés et des entiers comme valeurs
@@ -25,7 +25,4 @@ impl LruCache {
             None // On retourne None car la lettre n'était pas dans le cache avant
         }
     }
-
-
-
 }
